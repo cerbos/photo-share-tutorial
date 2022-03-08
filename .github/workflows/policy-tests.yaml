@@ -18,7 +18,7 @@ jobs:
         uses: cerbos/cerbos-setup-action@v1
 
       - name: Compile and test policies
-        uses: cerbos/cerbos-compile-action@v1
+        uses: cerbos/cerbos-compile-action@9c40eadcdb3aaec930a1aa0004d54bdea9ded249
         with:
           policyDir: policies
           testDir: tests
